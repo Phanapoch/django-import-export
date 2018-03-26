@@ -426,7 +426,7 @@ class ImportExportMixin(ImportMixin, ExportMixin):
     Import and export mixin.
     """
     #: template for change_list view
-    change_list_template += 'admin/import_export/change_list_import_export.html'
+    change_list_template = 'admin/import_export/change_list_import_export.html'
 
 
 class ImportExportModelAdmin(ImportExportMixin, admin.ModelAdmin):
