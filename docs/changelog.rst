@@ -5,7 +5,15 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- custom js for action form also handles grappelli (#719)
+
+- Use 'verbose_name' in breadcrumbs to match Django default (#732)
+
+- Add Resource.get_diff_class() (#745)
+
+- Fix and add polish translation (#747)
+
+- Restore raise_errors to before_import (#749)
 
 
 1.0.0 (2018-02-13)
